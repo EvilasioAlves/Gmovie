@@ -1,7 +1,9 @@
-Projeto Locadora de Filmes - GMOVIE 🎥 /br
+Projeto Locadora de Filmes - GMOVIE 🎥
+
 O sistema de locadora de filmes é uma plataforma web abrangente que simplifica o aluguel de filmes para pessoas de todas as classes sociais. 
 
-Tecnologias Utilizadas🖥️ /br
+Tecnologias Utilizadas🖥️
+
 O sistema de locadora de filmes foi desenvolvido utilizando as seguintes tecnologias:
 
 IDE: Spring Tool Suite 4 para facilitar o desenvolvimento.
