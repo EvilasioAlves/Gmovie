@@ -1,0 +1,186 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+:root{
+    --color-primary: #ed4b1b; 
+    --color-secondary: rgb(255, 0, 0);
+    --color-black: #000;
+    --color-white: #fff;
+    
+}
+body{
+    background: url(./img/BG.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    list-style: none;
+    
+}
+
+nav a {
+    color: #44082A;
+    font-weight: 500;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+    transition: .3s;
+
+}
+
+.navbar a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.logo  {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.wrapper{
+    width: 420px;
+    background: transparent;
+    color: #000;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, .3);
+    backdrop-filter: blur(20px);
+    box-shadow: rgba(0, 0, 0, .2);
+}
+
+.wrapper i{
+    color: rgb(255, 0, 0);
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #000;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+
+}
+
+.remember-forgot label input{
+    margin-right: 3px;
+
+}
+
+.remember-forgot a{
+    color: #000;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: rgb(255, 0, 0);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.wrapper .registro{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+    margin: 20 0 15px;
+}
+
+.registro p{
+    color: #000;
+}
+
+.registro p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+
+.registro p a:hover{
+    text-decoration: underline;
+}
