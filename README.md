@@ -8,7 +8,7 @@ O sistema de locadora de filmes foi desenvolvido utilizando as seguintes tecnolo
 
 IDE: Spring Tool Suite 4 para facilitar o desenvolvimento.
 
-Linguagens 📚:/br
+Linguagens 📚:
 
 Java: Utilizado para a lógica de programação e funcionalidades do sistema.
 HTML e CSS: Responsáveis pela construção da interface do usuário.
